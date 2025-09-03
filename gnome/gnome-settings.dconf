@@ -1,0 +1,387 @@
+[org/gnome/Extensions]
+window-height=1038
+
+[org/gnome/Ptyxis]
+default-profile-uuid='bf71fb7bb32cee068d972ed468b0409a'
+profile-uuids=['bf71fb7bb32cee068d972ed468b0409a']
+window-size=(uint32 80, uint32 49)
+
+[org/gnome/calendar]
+active-view='month'
+window-maximized=true
+window-size=(768, 1038)
+
+[org/gnome/control-center]
+last-panel='multitasking'
+window-state=(980, 1038, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['System', 'Utilities', 'YaST', 'Pardus']
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/System]
+apps=['org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Logs.desktop', 'org.freedesktop.MalcontentControl.desktop', 'org.freedesktop.GnomeAbrt.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.SystemMonitor.desktop']
+name='X-GNOME-Shell-System.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['org.gnome.Connections.desktop', 'org.gnome.Evince.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Loupe.desktop']
+name='X-GNOME-Shell-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/sinhaa/.local/share/backgrounds/2025-08-28-12-57-00-WhatsApp%20Image%202025-08-28%20at%2012.56.46.jpeg'
+picture-uri-dark='file:///home/sinhaa/.local/share/backgrounds/2025-08-28-12-57-00-WhatsApp%20Image%202025-08-28%20at%2012.56.46.jpeg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us')]
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+enable-hot-corners=false
+show-battery-percentage=true
+toolkit-accessibility=false
+
+[org/gnome/desktop/notifications]
+application-children=['com-spotify-client', 'org-freedesktop-problems-applet', 'org-gnome-texteditor', 'ulauncher', 'gnome-power-panel', 'org-gnome-ptyxis', 'org-gnome-shell-extensions', 'microsoft-edge', 'org-gnome-nautilus', 'code', 'msedge-hnpfjngllnobngcgfapefoaidbinmjnm-default']
+show-banners=false
+
+[org/gnome/desktop/notifications/application/code]
+application-id='code.desktop'
+
+[org/gnome/desktop/notifications/application/com-spotify-client]
+application-id='com.spotify.Client.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/microsoft-edge]
+application-id='microsoft-edge.desktop'
+
+[org/gnome/desktop/notifications/application/msedge-hnpfjngllnobngcgfapefoaidbinmjnm-default]
+application-id='msedge-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop'
+
+[org/gnome/desktop/notifications/application/org-freedesktop-problems-applet]
+application-id='org.freedesktop.problems.applet.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-ptyxis]
+application-id='org.gnome.Ptyxis.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-shell-extensions]
+application-id='org.gnome.Shell.Extensions.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-texteditor]
+application-id='org.gnome.TextEditor.desktop'
+
+[org/gnome/desktop/notifications/application/ulauncher]
+application-id='ulauncher.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=false
+
+[org/gnome/desktop/peripherals/mouse]
+speed=1.0
+
+[org/gnome/desktop/peripherals/touchpad]
+speed=1.0
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/sinhaa/.local/share/backgrounds/2025-08-28-12-57-00-WhatsApp%20Image%202025-08-28%20at%2012.56.46.jpeg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/session]
+idle-delay=uint32 900
+
+[org/gnome/desktop/sound]
+allow-volume-above-100-percent=true
+
+[org/gnome/desktop/wm/keybindings]
+maximize=@as []
+move-to-monitor-down=@as []
+move-to-monitor-left=@as []
+move-to-monitor-right=@as []
+move-to-monitor-up=@as []
+move-to-workspace-down=@as []
+move-to-workspace-left=@as []
+move-to-workspace-right=@as []
+move-to-workspace-up=@as []
+switch-applications=@as []
+switch-applications-backward=@as []
+switch-group=@as []
+switch-group-backward=@as []
+switch-input-source=@as []
+switch-input-source-backward=@as []
+switch-panels=@as []
+switch-panels-backward=@as []
+switch-to-workspace-1=['<Super>Home']
+switch-to-workspace-last=@as []
+switch-to-workspace-left=@as []
+switch-to-workspace-right=@as []
+unmaximize=@as []
+
+[org/gnome/desktop/wm/preferences]
+workspace-names=['', '', 'Workspace 3', 'Workspace 4']
+
+[org/gnome/evince/default]
+continuous=true
+dual-page=false
+dual-page-odd-left=false
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=true
+show-sidebar=false
+sidebar-page='thumbnails'
+sidebar-size=132
+sizing-mode='fit-width'
+window-ratio=(0.95717884130982367, 1.2327790973871735)
+zoom=0.49655496996979848
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=true
+enable-smartcard-authentication=false
+
+[org/gnome/mutter]
+attach-modal-dialogs=false
+edge-tiling=false
+overlay-key=''
+workspaces-only-on-primary=false
+
+[org/gnome/mutter/keybindings]
+cancel-input-capture=@as []
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[org/gnome/mutter/wayland/keybindings]
+restore-shortcuts=@as []
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(380, 1038)
+initial-size-file-chooser=(890, 550)
+
+[org/gnome/portal/filechooser/org.gnome.Settings]
+last-folder-path='/home/sinhaa/Downloads'
+
+[org/gnome/portal/filechooser/ulauncher]
+last-folder-path='/home/sinhaa/Desktop/College/Sem5/OS/Lab/Lab6'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=false
+night-light-schedule-automatic=false
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+rotate-video-lock-static=@as []
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>space'
+command='ulauncher-toggle'
+name='Ulauncher'
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=7200
+sleep-inactive-battery-timeout=3600
+
+[org/gnome/shell]
+disable-user-extensions=false
+disabled-extensions=['hidetopbar@mathieu.bidon.ca', 'gradienttopbar@pshow.org', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['background-logo@fedorahosted.org', 'Bluetooth-Battery-Meter@maniacx.github.com', 'boostvolume@shaquib.dev', 'clipboard-indicator@tudmotu.com', 'EasyScreenCast@iacopodeenosee.gmail.com', 'mprisLabel@moon-0xff.github.com', 'osd-volume-number@deminder', 'paperwm@paperwm.github.com', 'quick-settings-tweaks@qwreey', 'ulauncher-toggle@willow.sh', 'no-overview@fthx', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com']
+last-selected-power-profile='power-saver'
+welcome-dialog-last-shown-version='48.4'
+
+[org/gnome/shell/extensions/Bluetooth-Battery-Meter]
+airpods-list=['{"path":"/org/bluez/hci0/dev_AC_07_75_D1_0B_C4","model":"2024","alias":"AirPods Pro","icon":"earbuds-stem","in-ear-control-enabled":true,"ca-volume":20,"adaptive-level":50}']
+attenuated-on-destroy-info=['{"path":"/org/bluez/hci0/dev_AC_07_75_D1_0B_C4","timestamp":1756873992190,"volume":-1}']
+circle-widget-color=2
+color-10='#e01b24'
+color-100='#15c931'
+color-20='#e01b24'
+color-30='#ff7800'
+color-40='#ff7800'
+color-50='#f6d32d'
+color-60='#f6d32d'
+color-70='#15c931'
+color-80='#15c931'
+color-90='#15c931'
+device-list=['{"path":"/org/bluez/hci0/dev_AC_07_75_D1_0B_C4","icon":"earbuds-stem","alias":"AirPods Pro","paired":true,"battery-reported":null,"qs-level":true,"indicator-mode":2,"enhanced-device":"airpods","connected-time":1756876038,"disconnected-time":1756873995}', '{"path":"/org/bluez/hci0/dev_41_42_8F_95_90_59","icon":"audio-headset","alias":"Rockerz 425 ","paired":false,"battery-reported":true,"qs-level":true,"indicator-mode":2,"enhanced-device":null,"connected-time":1756383176,"disconnected-time":1756383176}', '{"path":"/org/bluez/hci0/dev_F8_5C_7E_66_79_EF","icon":"audio-card","alias":"JBL Go 3","paired":false,"battery-reported":null,"qs-level":null,"indicator-mode":0,"enhanced-device":null,"connected-time":1756383817,"disconnected-time":1756383817}', '{"path":"/org/bluez/hci0/dev_10_28_74_6A_1E_7E","icon":"audio-card","alias":"JBL Flip 6","paired":true,"battery-reported":null,"qs-level":null,"indicator-mode":0,"enhanced-device":null,"connected-time":1756389348,"disconnected-time":1756389348}']
+enable-airpods-device=true
+enable-battery-indicator-text=true
+enable-battery-level-text=true
+enable-enhanced-device-mode=true
+enable-gattbas-device=true
+enable-multi-indicator-mode=true
+enable-on-hover-mode=true
+enable-panel-button-mode=false
+enable-upower-level-icon=true
+level-indicator-color=2
+level-indicator-type=0
+sort-devices-by-history=true
+swap-icon-text=true
+
+[org/gnome/shell/extensions/clipboard-indicator]
+cache-size=1024
+clear-history=['<Alt>d']
+history-size=10000
+next-entry=['<Alt>Up']
+prev-entry=['<Alt>Down']
+private-mode-binding=['<Alt>p']
+toggle-menu=['<Alt>c']
+
+[org/gnome/shell/extensions/mpris-label]
+album-size=110
+auto-switch-to-most-recent=true
+enable-double-clicks=true
+extension-place='center'
+icon-padding=15
+left-click-action='play-pause'
+left-padding=250
+middle-click-action='open-menu'
+remove-text-when-paused=false
+reposition-on-button-press=false
+right-padding=0
+show-icon='left'
+symbolic-source-icon=false
+volume-control-scheme='global'
+
+[org/gnome/shell/extensions/org/pshow/gradienttopbar]
+colors=['rgba(0, 0, 0, 1)', 'rgb(0,0,0)']
+
+[org/gnome/shell/extensions/osd-volume-number]
+adapt-panel-menu=true
+icon-position='hidden'
+number-position='left'
+
+[org/gnome/shell/extensions/paperwm]
+edge-preview-click-enable=true
+edge-preview-timeout-continual=true
+edge-preview-timeout-enable=true
+gesture-workspace-fingers=4
+horizontal-margin=5
+last-used-display-server='Wayland'
+maximize-width-percent=1.0
+open-window-position=0
+open-window-position-option-up=true
+overview-ensure-viewport-animation=2
+overview-min-windows-per-row=1
+restore-attach-modal-dialogs='true'
+restore-edge-tiling='true'
+restore-keybinds='{"toggle-tiled-left":{"bind":"[\\"<Super>Left\\"]","schema_id":"org.gnome.mutter.keybindings"},"toggle-tiled-right":{"bind":"[\\"<Super>Right\\"]","schema_id":"org.gnome.mutter.keybindings"},"cancel-input-capture":{"bind":"[\\"<Super><Shift>Escape\\"]","schema_id":"org.gnome.mutter.keybindings"},"restore-shortcuts":{"bind":"[\\"<Super>Escape\\"]","schema_id":"org.gnome.mutter.wayland.keybindings"},"switch-to-workspace-last":{"bind":"[\\"<Super>End\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-panels":{"bind":"[\\"<Control><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-group-backward":{"bind":"[\\"<Shift><Super>Above_Tab\\",\\"<Shift><Alt>Above_Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"unmaximize":{"bind":"[\\"<Super>Down\\",\\"<Alt>F5\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-left":{"bind":"[\\"<Super><Shift>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-down":{"bind":"[\\"<Super><Shift>Down\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-left":{"bind":"[\\"<Super>Page_Up\\",\\"<Super><Alt>Left\\",\\"<Control><Alt>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-group":{"bind":"[\\"<Super>Above_Tab\\",\\"<Alt>Above_Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-left":{"bind":"[\\"<Super><Shift>Page_Up\\",\\"<Super><Shift><Alt>Left\\",\\"<Control><Shift><Alt>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-right":{"bind":"[\\"<Super><Shift>Page_Down\\",\\"<Super><Shift><Alt>Right\\",\\"<Control><Shift><Alt>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-panels-backward":{"bind":"[\\"<Shift><Control><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-up":{"bind":"[\\"<Control><Shift><Alt>Up\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-right":{"bind":"[\\"<Super>Page_Down\\",\\"<Super><Alt>Right\\",\\"<Control><Alt>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-down":{"bind":"[\\"<Control><Shift><Alt>Down\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-applications":{"bind":"[\\"<Super>Tab\\",\\"<Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"maximize":{"bind":"[\\"<Super>Up\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-right":{"bind":"[\\"<Super><Shift>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-applications-backward":{"bind":"[\\"<Shift><Super>Tab\\",\\"<Shift><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-up":{"bind":"[\\"<Super><Shift>Up\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-application-5":{"bind":"[\\"<Super>5\\"]","schema_id":"org.gnome.shell.keybindings"},"switch-to-application-1":{"bind":"[\\"<Super>1\\"]","schema_id":"org.gnome.shell.keybindings"},"switch-to-application-7":{"bind":"[\\"<Super>7\\"]","schema_id":"org.gnome.shell.keybindings"},"switch-to-application-9":{"bind":"[\\"<Super>9\\"]","schema_id":"org.gnome.shell.keybindings"},"switch-to-application-6":{"bind":"[\\"<Super>6\\"]","schema_id":"org.gnome.shell.keybindings"},"switch-to-application-3":{"bind":"[\\"<Super>3\\"]","schema_id":"org.gnome.shell.keybindings"},"switch-to-application-8":{"bind":"[\\"<Super>8\\"]","schema_id":"org.gnome.shell.keybindings"},"shift-overview-up":{"bind":"[\\"<Super><Alt>Up\\"]","schema_id":"org.gnome.shell.keybindings"},"shift-overview-down":{"bind":"[\\"<Super><Alt>Down\\"]","schema_id":"org.gnome.shell.keybindings"},"focus-active-notification":{"bind":"[\\"<Super>n\\"]","schema_id":"org.gnome.shell.keybindings"},"toggle-message-tray":{"bind":"[\\"<Super>v\\",\\"<Super>m\\"]","schema_id":"org.gnome.shell.keybindings"},"switch-to-application-4":{"bind":"[\\"<Super>4\\"]","schema_id":"org.gnome.shell.keybindings"},"switch-to-application-2":{"bind":"[\\"<Super>2\\"]","schema_id":"org.gnome.shell.keybindings"},"rotate-video-lock-static":{"bind":"[\\"<Super>o\\",\\"XF86RotationLockToggle\\"]","schema_id":"org.gnome.settings-daemon.plugins.media-keys"}}'
+restore-workspaces-only-on-primary='true'
+selection-border-radius-top=5
+selection-border-size=5
+show-open-position-icon=true
+show-window-position-bar=false
+show-workspace-indicator=false
+topbar-mouse-scroll-enable=false
+vertical-margin=5
+vertical-margin-bottom=5
+window-gap=5
+
+[org/gnome/shell/extensions/paperwm/keybindings]
+switch-eighth=['<Super>8']
+switch-eleventh=['']
+switch-fifth=['<Super>5']
+switch-first=['<Super>1']
+switch-fourth=['<Super>4']
+switch-ninth=['<Super>9']
+switch-second=['<Super>2']
+switch-seventh=['<Super>7']
+switch-sixth=['<Super>6']
+switch-tenth=['<Super>0']
+switch-third=['<Super>3']
+toggle-scratch=['<Alt><Super>f']
+
+[org/gnome/shell/extensions/paperwm/workspaces]
+list=['591b4c25-4376-4e65-85c6-6271b1ad83e6', '8c79cd2e-69cd-4171-8685-60b969593d5c', 'c6826ede-9428-4490-b647-6dd33d0b9f36', '3d212633-8f81-4688-b8ed-8c3401f78fb5', 'ee7fe9a5-682f-4843-afc7-f939df5f0435']
+
+[org/gnome/shell/extensions/paperwm/workspaces/3d212633-8f81-4688-b8ed-8c3401f78fb5]
+index=2
+
+[org/gnome/shell/extensions/paperwm/workspaces/591b4c25-4376-4e65-85c6-6271b1ad83e6]
+index=0
+show-position-bar=true
+show-top-bar=true
+
+[org/gnome/shell/extensions/paperwm/workspaces/8c79cd2e-69cd-4171-8685-60b969593d5c]
+index=1
+
+[org/gnome/shell/extensions/paperwm/workspaces/c6826ede-9428-4490-b647-6dd33d0b9f36]
+index=4
+
+[org/gnome/shell/extensions/paperwm/workspaces/ee7fe9a5-682f-4843-afc7-f939df5f0435]
+index=3
+
+[org/gnome/shell/extensions/quick-settings-tweaks]
+datemenu-hide-left-box=true
+datemenu-hide-right-box=false
+overlay-menu-enabled=false
+toggles-layout-enabled=false
+toggles-layout-order=[{'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'NMWiredToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'NMWirelessToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'NMModemToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'NMBluetoothToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'NMVpnToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'BluetoothToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'PowerProfilesToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'NightLightToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'DarkModeToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'KeyboardBrightnessToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'RfkillToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'RotationToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'DndQuickToggle'>>}, {'hide': <<false>>, 'isSystem': <<true>>, 'constructorName': <<'UnsafeQuickToggle'>>}, {'nonOrdered': <<true>>, 'hide': <<false>>}, {'hide': <<false>>, 'titleRegex': <<''>>, 'constructorName': <<''>>, 'friendlyName': <<'My item #1'>>, 'gtypeName': <<''>>}]
+volume-mixer-max-height=0
+
+[org/gnome/shell/extensions/user-theme]
+name=''
+
+[org/gnome/shell/keybindings]
+focus-active-notification=@as []
+shift-overview-down=@as []
+shift-overview-up=@as []
+switch-to-application-1=@as []
+switch-to-application-2=@as []
+switch-to-application-3=@as []
+switch-to-application-4=@as []
+switch-to-application-5=@as []
+switch-to-application-6=@as []
+switch-to-application-7=@as []
+switch-to-application-8=@as []
+switch-to-application-9=@as []
+toggle-message-tray=@as []
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/tweaks]
+show-extensions-notice=false
+
+[org/gtk/gtk4/settings/color-chooser]
+custom-colors=[(0.0, 0.0, 0.0, 0.0), (0.08235294371843338, 0.78823530673980713, 0.19215686619281769, 1.0)]
+selected-color=(true, 0.87843137979507446, 0.10588235408067703, 0.14117647707462311, 1.0)
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+sidebar-width=140
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+view-type='list'
+window-size=(867, 326)

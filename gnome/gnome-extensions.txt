@@ -1,0 +1,16 @@
+Bluetooth-Battery-Meter@maniacx.github.com
+clipboard-indicator@tudmotu.com
+EasyScreenCast@iacopodeenosee.gmail.com
+paperwm@paperwm.github.com
+ulauncher-toggle@willow.sh
+boostvolume@shaquib.dev
+osd-volume-number@deminder
+quick-settings-tweaks@qwreey
+mprisLabel@moon-0xff.github.com
+apps-menu@gnome-shell-extensions.gcampax.github.com
+background-logo@fedorahosted.org
+launch-new-instance@gnome-shell-extensions.gcampax.github.com
+places-menu@gnome-shell-extensions.gcampax.github.com
+window-list@gnome-shell-extensions.gcampax.github.com
+no-overview@fthx
+user-theme@gnome-shell-extensions.gcampax.github.com
