@@ -205,6 +205,27 @@ comp() {
 }
 
 
+run() {
+  repo_dir="."
+  pattern="*"
+
+  # Use pattern from argument if provided
+  if [ -n "$1" ]; then
+      pattern="$1"
+  fi
+
+  # Find all matching files, ignore .git, check if executable, run in a new ptyxis window
+  find "$repo_dir" -type f -not -path "*/.git/*" -name "${pattern}*" | while read -r file; do
+      if [ -x "$file" ]; then
+          echo "Opening $file in a new window"
+          ptyxis --new-window -- zsh -c "./$file; exec zsh"
+      else
+          echo "Skipping $file (not executable)"
+      fi
+  done
+}
+
+
 
 
 # The following lines were added by compinstall
