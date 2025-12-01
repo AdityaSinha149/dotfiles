@@ -117,11 +117,17 @@ export PAGER=cat
 
 alias desk='cd ~/Desktop/'
 alias coll='cd ~/Desktop/College/'
+
 alias cn='cd ~/Desktop/College/Sem5/CN/'
 alias pc='cd ~/Desktop/College/Sem5/PC/'
 alias se='cd ~/Desktop/College/Sem5/SE/'
 alias eom='cd ~/Desktop/College/Sem5/EOM/'
 alias os='cd ~/Desktop/College/Sem5/OS/'
+
+alias cmpd='cd ~/Desktop/College/Sem6/CD/'
+alias pcap='cd ~/Desktop/College/Sem6/PCAP/'
+alias efm='cd ~/Desktop/College/Sem6/EFM/'
+
 
 sem() {
   if [ -z "$1" ]; then
@@ -145,11 +151,11 @@ lab() {
   # Expected lab path
   target="$PWD/Lab/Lab$1"
 
-  # If already inside a course folder (PC, CN, OS, SE, EOM)
-  if [[ "$current" =~ ^(PC|CN|OS|SE|EOM)$ ]]; then
+  # If already inside a course folder 
+  if [[ "$current" =~ ^(PC|CN|OS|SE|EOM|CD|EFM|PCAP)$ ]]; then
     cd "$target" 2>/dev/null || echo "Lab$1 does not exist in $current"
   else
-    echo "You must be inside a course folder (PC, CN, OS, SE, EOM) to use lab command"
+    echo "You must be inside a course folder to use lab command"
   fi
 }
 
@@ -225,8 +231,14 @@ run() {
   done
 }
 
-
-
+#converts all ppts in current directory into pdfs
+pdf() {
+  setopt NULL_GLOB
+  for f in *.ppt *.pptx *.ppsx *.pptx *.docx *.doc; do
+      [ -e "$f" ] || continue
+      libreoffice --headless --convert-to pdf "$f" && rm -- "$f"
+  done
+}
 
 # The following lines were added by compinstall
 
